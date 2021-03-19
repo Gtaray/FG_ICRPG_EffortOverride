@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+    <template name="number_charefforttotal">
+        <number_linked>
+            <anchored position="belowright" offset="0,10" width="30" height="22" />
+            <frame name="fielddark" offset="7,5,7,5" />
+            <readonly />
+			<script file="campaign/scripts/number_effortTotal.lua" />
+        </number_linked>
+    </template>
+</root>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<!-- 
+  Please see the license.html file included with this distribution for 
+  attribution and copyright information.
+-->
+
+<root>
+	<!-- Portrait Chat icons -->	
+	<icon name="effort_d4" file="graphics/dice/d4.png" />
+    <icon name="effort_d6" file="graphics/dice/d6.png" />
+    <icon name="effort_d8" file="graphics/dice/d8.png" />
+    <icon name="effort_d10" file="graphics/dice/d10.png" />
+    <icon name="effort_d12" file="graphics/dice/d12.png" />
+</root>

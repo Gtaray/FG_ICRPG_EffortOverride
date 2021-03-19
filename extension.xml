@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root version="3.3" release="1.0">
+	<announcement text="Loaded Effort Override" font="emotefont" />
+	<properties>
+		<name>ICRPG - Effort Override</name>
+		<version>1.0</version>
+		<author>George Taray</author>
+		<description>Adds the ability for to set effort dice on a per character basis.</description>
+		<ruleset>
+			<name>ICRPG</name>
+		</ruleset>
+		<loadorder>60</loadorder>
+	</properties>
+	<base>
+		<!-- Campaign -->		
+		<includefile source="campaign/template_char.xml" />
+
+		<!-- Strings -->
+		<includefile source="strings/strings.xml" />
+
+		<includefile source="graphics/graphics_dice.xml" />
+		<includefile source="graphics/graphics_radial.xml" />
+	</base>
+</root>
