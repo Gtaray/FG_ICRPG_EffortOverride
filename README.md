@@ -1,4 +1,4 @@
-# FG_ICRPG_EffortOverride
+# Effort Override
 
 Extension for Fantasy Grounds supporting Index Card RPG.
 
