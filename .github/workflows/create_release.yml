@@ -21,4 +21,5 @@ jobs:
       with:
         artifacts: "ICRPG_EffortOverride.ext"
         token: ${{ secrets.GITHUB_TOKEN }}
+        allowUpdates: true
         
