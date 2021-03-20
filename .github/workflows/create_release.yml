@@ -19,3 +19,13 @@ jobs:
     - uses: ncipollo/release-action@v1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Archive Release
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'ICRPG_EffortOverride.ext'
+        exclusions: '*.git* /*node_modules/* .editorconfig'
+    - name: Create Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "ICRPG_EffortOverride.ext"
+        token: ${{ secrets.GITHUB_TOKEN }}
