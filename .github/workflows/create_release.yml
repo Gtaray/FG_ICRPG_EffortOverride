@@ -16,3 +16,9 @@ jobs:
       with:
         filename: 'ICRPG_EffortOverride.ext'
         exclusions: '*.git* /*node_modules/* .editorconfig'
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "ICRPG_EffortOverride.ext"
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
