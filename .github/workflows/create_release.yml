@@ -23,7 +23,7 @@ jobs:
       uses: thedoctor0/zip-release@master
       with:
         filename: 'ICRPG_EffortOverride.ext'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
+        exclusions: '*.git* /*node_modules/* .editorconfig body.md'
     - name: Create Release
       uses: ncipollo/release-action@v1
       with:
